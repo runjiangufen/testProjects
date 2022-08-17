@@ -5,8 +5,8 @@
 /.mendix-cache/
 /.classpath
 /.project
-*.mpr.bak
-*.mpr.lock
+/*.mpr.bak
+/*.mpr.lock
 /modeler-merge-marker
 /package.json
 /project-settings.user.json

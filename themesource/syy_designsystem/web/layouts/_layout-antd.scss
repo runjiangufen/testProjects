@@ -1,0 +1,208 @@
+/* ==========================================================================
+   Atlas layout
+
+   The core stucture of all atlas layouts
+========================================================================== */
+.layout-antd {
+
+    // 暗黑模式
+    .dark {
+        color: #fff !important;
+        box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.30);
+        background-color: #001529;
+
+        a, h5 {
+            color: #fff;
+        }
+        .logo-box {
+            color: #fff !important;
+        }
+
+    }
+    .icon-home {
+        font-size: 30px;
+    }
+
+    // 亮光模式
+    .light {
+        color: #fff !important;
+        box-shadow: 0px 2px 2px rgba(194, 196, 201, 0.30);
+
+        a, h5 {
+            color: #fff;
+        }
+
+        .logo-box {
+            color: #fff !important;
+        }
+    }
+
+    .topbar-content {
+        height: 100%;
+        min-height: auto !important;
+    }
+    .region-content>.mx-scrollcontainer-wrapper>.mx-placeholder {
+        height: auto;
+    }
+    .region-topbar {
+        padding: 0;
+    }
+    .footer-copyright {
+        width: 100%;
+        margin-top: 40px;
+        margin-bottom: 22px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        span {
+            font-size: 14px;
+            color: rgba(0,0,0, 0.45);
+        }
+    }
+    .logo-box {
+        display: flex;
+        padding-left: 18px;
+        // justify-content: center;
+        align-items: center;
+        width: 200px;
+        .icon-logo {
+            font-size: 27px;
+        }
+        img.logo-big {
+            width: 80%;
+        }
+        img {
+            width: 30px;
+        }
+        span {
+            font-size: 16px;
+            margin-left: 8px;
+            font-weight: bold;
+            // color: #fff;
+        }
+    }
+
+    .mx-scrollcontainer-left {
+        &>.mx-scrollcontainer-wrapper {
+            padding: 0;
+        }
+    }
+
+    .heroheader1 {
+        background-image: none;
+        background-color: none;
+        box-shadow: none;
+        position: relative;
+        z-index: 2;
+    }
+
+    .topbar-menu {
+        background: none;
+        // color: #fff !important;
+        h5 {
+            // color: #fff;
+        }
+        a {
+            // color: #fff;
+            &:hover{
+                text-decoration: none !important;
+            }
+        }
+    }
+
+    .mx-name-sidebarToggle1 {
+        display: none;
+    }
+
+    .navbar-right-menus {
+        // position: absolute;
+        // right: 0;
+        // top: 0;
+        // height: 100%;
+        // width: auto;
+        & > .row {
+            & > .col {
+                flex-basis: auto !important;
+                width: auto;
+            }
+        }
+    
+        .asit-navbar-dropdown .nav-head-image-wrap .nav-head-username {
+            // color: #fff;
+            white-space: nowrap;
+            max-width: 120px;
+            overflow: hidden;
+            text-overflow: ellipsis;
+            &:hover {
+                color: #999;
+            }
+        }
+    
+        .menu-item {
+            position: relative;
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            height: 50px;
+            flex-shrink: 0;
+            font-size: 14px;
+            padding: 0 0.3em;
+            transition: all 300ms;
+            cursor: pointer;
+            color: #96b1f8;
+            &:hover {
+                color: #999;
+            }
+    
+            & > img {
+                width: 24px;
+                margin-right: 8px;
+                &.avatar {
+                    width: 32px;
+                    height: 32px;
+                    border-radius: 50%;
+                }
+            }
+            .alarm-count {
+                position: absolute;
+                background-color: #cf1818;
+                border-radius: 1em;
+                height: 13px;
+                line-height: 14px;
+                top: 10px;
+                left: 13px;
+                color: #fff;
+                padding: 0 0.5em;
+            }
+            .total-days {
+                font-size: 18px;
+                color: #16ca49;
+            }
+            .mx-text {
+                white-space: nowrap;
+                margin-bottom: 0;
+            }
+    
+            .asit-navbar-dropdown .nav-head-image-wrap .nav-head-username {
+                color: #96b1f8;
+            }
+            &.mute-item {
+                .mute-img {
+                    display: none;
+                }
+                &.muted {
+                    .mute-img {
+                        display: inline;
+                    }
+                    .unmute-img {
+                        display: none;
+                    }
+                }
+            }
+        }
+    }
+
+    .row>.col>h2.mx-text {
+        font-size: 24px;
+    }
+}

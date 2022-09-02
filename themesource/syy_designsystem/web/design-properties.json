@@ -1,0 +1,2112 @@
+{
+    "Widget": [
+        {
+            "name": "display",
+            "type": "Dropdown",
+            "description": "显示框类型",
+            "options": [
+                {
+                    "name": "none",
+                    "class": "display-none"
+                },
+                {
+                    "name": "block",
+                    "class": "display-block"
+                },
+                {
+                    "name": "inline-block",
+                    "class": "display-inline-block"
+                },
+                {
+                    "name": "inherit",
+                    "class": "display-inherit"
+                },
+                {
+                    "name": "flex",
+                    "class": "display-flex"
+                },
+                {
+                    "name": "list-item",
+                    "class": "display-list-item"
+                },
+                {
+                    "name": "run-in",
+                    "class": "display-run-in"
+                },
+                {
+                    "name": "table",
+                    "class": "display-table"
+                },
+                {
+                    "name": "inline-table",
+                    "class": "display-inline-table"
+                }
+            ]
+        },
+        {
+            "name": "宽度",
+
+            "type": "Dropdown",
+            "description": "",
+            "options": [
+                {
+                    "name": "100%",
+                    "class": "width-full-100"
+                },
+                {
+                    "name": "0",
+                    "class": "width-0"
+                },
+                {
+                    "name": "2",
+                    "class": "width-2"
+                },
+                {
+                    "name": "4",
+                    "class": "width-4"
+                },
+                {
+                    "name": "5",
+                    "class": "width-5"
+                },
+                {
+                    "name": "6",
+                    "class": "width-6"
+                },
+                {
+                    "name": "8",
+                    "class": "width-8"
+                },
+                {
+                    "name": "10",
+                    "class": "width-10"
+                },
+                {
+                    "name": "12",
+                    "class": "width-12"
+                },
+                {
+                    "name": "15",
+                    "class": "width-15"
+                },
+                {
+                    "name": "16",
+                    "class": "width-16"
+                },
+                {
+                    "name": "18",
+                    "class": "width-18"
+                },
+                {
+                    "name": "20",
+                    "class": "width-20"
+                },
+                {
+                    "name": "24",
+                    "class": "width-24"
+                },
+                {
+                    "name": "30",
+                    "class": "width-30"
+                },
+                {
+                    "name": "36",
+                    "class": "width-36"
+                },
+                {
+                    "name": "40",
+                    "class": "width-40"
+                },
+                {
+                    "name": "50",
+                    "class": "width-50"
+                },
+                {
+                    "name": "60",
+                    "class": "width-60"
+                },
+                {
+                    "name": "70",
+                    "class": "width-70"
+                },
+                {
+                    "name": "80",
+                    "class": "width-80"
+                },
+                {
+                    "name": "90",
+                    "class": "width-90"
+                },
+                {
+                    "name": "100",
+                    "class": "width-100"
+                },
+                {
+                    "name": "150",
+                    "class": "width-150"
+                },
+                {
+                    "name": "200",
+                    "class": "width-200"
+                },
+                {
+                    "name": "250",
+                    "class": "width-250"
+                },
+                {
+                    "name": "300",
+                    "class": "width-300"
+                }
+            ]
+        },
+        {
+            "name": "高度",
+
+            "type": "Dropdown",
+            "description": "",
+            "options": [
+                {
+                    "name": "100%",
+                    "class": "height-full-100"
+                },
+                {
+                    "name": "0",
+                    "class": "height-0"
+                },
+                {
+                    "name": "2",
+                    "class": "height-2"
+                },
+                {
+                    "name": "4",
+                    "class": "height-4"
+                },
+                {
+                    "name": "5",
+                    "class": "height-5"
+                },
+                {
+                    "name": "6",
+                    "class": "height-6"
+                },
+                {
+                    "name": "8",
+                    "class": "height-8"
+                },
+                {
+                    "name": "10",
+                    "class": "height-10"
+                },
+                {
+                    "name": "12",
+                    "class": "height-12"
+                },
+                {
+                    "name": "15",
+                    "class": "height-15"
+                },
+                {
+                    "name": "16",
+                    "class": "height-16"
+                },
+                {
+                    "name": "18",
+                    "class": "height-18"
+                },
+                {
+                    "name": "20",
+                    "class": "height-20"
+                },
+                {
+                    "name": "24",
+                    "class": "height-24"
+                },
+                {
+                    "name": "30",
+                    "class": "height-30"
+                },
+                {
+                    "name": "36",
+                    "class": "height-36"
+                },
+                {
+                    "name": "40",
+                    "class": "height-40"
+                },
+                {
+                    "name": "50",
+                    "class": "height-50"
+                },
+                {
+                    "name": "60",
+                    "class": "height-60"
+                },
+                {
+                    "name": "70",
+                    "class": "height-70"
+                },
+                {
+                    "name": "80",
+                    "class": "height-80"
+                },
+                {
+                    "name": "90",
+                    "class": "height-90"
+                },
+                {
+                    "name": "100",
+                    "class": "height-100"
+                },
+                {
+                    "name": "150",
+                    "class": "height-150"
+                },
+                {
+                    "name": "200",
+                    "class": "height-200"
+                },
+                {
+                    "name": "250",
+                    "class": "height-250"
+                },
+                {
+                    "name": "300",
+                    "class": "height-300"
+                }
+            ]
+        },
+        {
+            "name": "行高",
+
+            "type": "Dropdown",
+            "description": "",
+            "options": [
+                {
+                    "name": "0",
+                    "class": "lineHeight-0"
+                },
+                {
+                    "name": "1.1em",
+                    "class": "lineHeight-em-1-1"
+                },
+                {
+                    "name": "1.2em",
+                    "class": "lineHeight-em-1-2"
+                },
+                {
+                    "name": "1.3em",
+                    "class": "lineHeight-em-1-3"
+                },
+                {
+                    "name": "1.4em",
+                    "class": "lineHeight-em-1-4"
+                },
+                {
+                    "name": "1.5em",
+                    "class": "lineHeight-em-1-5"
+                },
+                {
+                    "name": "1.6em",
+                    "class": "lineHeight-em-1-6"
+                },
+                {
+                    "name": "1.8em",
+                    "class": "lineHeight-em-1-8"
+                },
+                {
+                    "name": "2em",
+                    "class": "lineHeight-em-2-0"
+                },
+                {
+                    "name": "10",
+                    "class": "lineHeight-10"
+                },
+                {
+                    "name": "12",
+                    "class": "lineHeight-12"
+                },
+                {
+                    "name": "15",
+                    "class": "lineHeight-15"
+                },
+                {
+                    "name": "16",
+                    "class": "lineHeight-16"
+                },
+                {
+                    "name": "18",
+                    "class": "lineHeight-18"
+                },
+                {
+                    "name": "20",
+                    "class": "lineHeight-20"
+                },
+                {
+                    "name": "24",
+                    "class": "lineHeight-24"
+                },
+                {
+                    "name": "30",
+                    "class": "lineHeight-30"
+                },
+                {
+                    "name": "36",
+                    "class": "lineHeight-36"
+                },
+                {
+                    "name": "40",
+                    "class": "lineHeight-40"
+                },
+                {
+                    "name": "50",
+                    "class": "lineHeight-50"
+                },
+                {
+                    "name": "60",
+                    "class": "lineHeight-60"
+                },
+                {
+                    "name": "70",
+                    "class": "lineHeight-70"
+                },
+                {
+                    "name": "80",
+                    "class": "lineHeight-80"
+                },
+                {
+                    "name": "90",
+                    "class": "lineHeight-90"
+                },
+                {
+                    "name": "100",
+                    "class": "lineHeight-100"
+                },
+                {
+                    "name": "150",
+                    "class": "lineHeight-150"
+                },
+                {
+                    "name": "200",
+                    "class": "lineHeight-200"
+                },
+                {
+                    "name": "250",
+                    "class": "lineHeight-250"
+                },
+                {
+                    "name": "300",
+                    "class": "lineHeight-300"
+                }
+            ]
+        },
+        {
+            "name": "外边距-全部方向",
+
+            "type": "Dropdown",
+            "description": "",
+            "options": [
+                {
+                    "name": "0",
+
+                    "class": "margin-0"
+                },
+                {
+                    "name": "xxs-4px-微小部件",
+
+                    "class": "margin-4"
+                },
+                {
+                    "name": "xs-8px-小部件",
+
+                    "class": "margin-8"
+                },
+                {
+                    "name": "sm-12px-表单",
+
+                    "class": "margin-12"
+                },
+                {
+                    "name": "md-16px-按钮",
+
+                    "class": "margin-16"
+                },
+                {
+                    "name": "lg-24px-容器",
+
+                    "class": "margin-24"
+                }
+            ]
+        },
+        {
+            "name": "外边距-左",
+
+            "type": "Dropdown",
+            "description": "",
+            "options": [
+                {
+                    "name": "0",
+
+                    "class": "margin-left-0"
+                },
+                {
+                    "name": "xxs-4px-微小部件",
+
+                    "class": "margin-left-4"
+                },
+                {
+                    "name": "xs-8px-小部件",
+
+                    "class": "margin-left-8"
+                },
+                {
+                    "name": "sm-12px-表单",
+                    "class": "margin-left-12"
+                },
+                {
+                    "name": "md-16px-按钮",
+
+                    "class": "margin-left-16"
+                },
+                {
+                    "name": "lg-24px-容器",
+                    "class": "margin-left-24"
+                }
+            ]
+        },
+        {
+            "name": "外边距-上",
+
+            "type": "Dropdown",
+            "description": "",
+            "options": [
+                {
+                    "name": "0",
+
+                    "class": "margin-top-0"
+                },
+                {
+                    "name": "xxs-4px-微小部件",
+
+                    "class": "margin-top-4"
+                },
+                {
+                    "name": "xs-8px-小部件",
+
+                    "class": "margin-top-8"
+                },
+                {
+                    "name": "sm-12px-表单",
+                    "class": "margin-top-12"
+                },
+                {
+                    "name": "md-16px-按钮",
+
+                    "class": "margin-top-16"
+                },
+                {
+                    "name": "lg-24px-容器",
+                    "class": "margin-top-24"
+                }
+            ]
+        },
+        {
+            "name": "外边距-右",
+
+            "type": "Dropdown",
+            "description": "",
+            "options": [
+                {
+                    "name": "0",
+
+                    "class": "margin-right-0"
+                },
+                {
+                    "name": "xxs-4px-微小部件",
+
+                    "class": "margin-right-4"
+                },
+                {
+                    "name": "xs-8px-小部件",
+
+                    "class": "margin-right-8"
+                },
+                {
+                    "name": "sm-12px-表单",
+                    "class": "margin-right-12"
+                },
+                {
+                    "name": "md-16px-按钮",
+
+                    "class": "margin-right-16"
+                },
+                {
+                    "name": "lg-24px-容器",
+                    "class": "margin-right-24"
+                }
+            ]
+        },
+        {
+            "name": "外边距-下",
+
+            "type": "Dropdown",
+            "description": "",
+            "options": [
+                {
+                    "name": "0",
+
+                    "class": "margin-bottom-0"
+                },
+                {
+                    "name": "xxs-4px-微小部件",
+
+                    "class": "margin-bottom-4"
+                },
+                {
+                    "name": "xs-8px-小部件",
+
+                    "class": "margin-bottom-8"
+                },
+                {
+                    "name": "sm-12px-表单",
+                    "class": "margin-bottom-12"
+                },
+                {
+                    "name": "md-16px-按钮",
+
+                    "class": "margin-bottom-16"
+                },
+                {
+                    "name": "lg-24px-容器",
+                    "class": "margin-bottom-24"
+                }
+            ]
+        },
+        {
+            "name": "内边距-全部方向",
+
+            "type": "Dropdown",
+            "description": "",
+            "options": [
+                {
+                    "name": "0",
+
+                    "class": "padding-0"
+                },
+                {
+                    "name": "xxs-4px-微小部件",
+
+                    "class": "padding-4"
+                },
+                {
+                    "name": "xs-8px-小部件",
+
+                    "class": "padding-8"
+                },
+                {
+                    "name": "sm-12px-表单",
+
+                    "class": "padding-12"
+                },
+                {
+                    "name": "md-16px-按钮",
+
+                    "class": "padding-16"
+                },
+                {
+                    "name": "lg-24px-容器",
+
+                    "class": "padding-24"
+                }
+            ]
+        },
+        {
+            "name": "内边距-左",
+
+            "type": "Dropdown",
+            "description": "",
+            "options": [
+                {
+                    "name": "0",
+
+                    "class": "padding-left-0"
+                },
+                {
+                    "name": "xxs-4px-微小部件",
+
+                    "class": "padding-left-4"
+                },
+                {
+                    "name": "xs-8px-小部件",
+
+                    "class": "padding-left-8"
+                },
+                {
+                    "name": "sm-12px-表单",
+
+                    "class": "padding-left-12"
+                },
+                {
+                    "name": "md-16px-按钮",
+
+                    "class": "padding-left-16"
+                },
+                {
+                    "name": "lg-24px-容器",
+                    "class": "padding-left-24"
+                }
+            ]
+        },
+        {
+            "name": "内边距-上",
+
+            "type": "Dropdown",
+            "description": "",
+            "options": [
+                {
+                    "name": "0",
+
+                    "class": "padding-top-0"
+                },
+                {
+                    "name": "xxs-4px-微小部件",
+
+                    "class": "padding-top-4"
+                },
+                {
+                    "name": "xs-8px-小部件",
+
+                    "class": "padding-top-8"
+                },
+                {
+                    "name": "sm-12px-表单",
+                    "class": "padding-top-12"
+                },
+                {
+                    "name": "md-16px-按钮",
+
+                    "class": "padding-top-16"
+                },
+                {
+                    "name": "lg-24px-容器",
+                    "class": "padding-top-24"
+                }
+            ]
+        },
+        {
+            "name": "内边距-右",
+            "type": "Dropdown",
+            "description": "",
+            "options": [
+                {
+                    "name": "0",
+
+                    "class": "padding-right-0"
+                },
+                {
+                    "name": "xxs-4px-微小部件",
+
+                    "class": "padding-right-4"
+                },
+                {
+                    "name": "xs-8px-小部件",
+
+                    "class": "padding-right-8"
+                },
+                {
+                    "name": "sm-12px-表单",
+                    "class": "padding-right-12"
+                },
+                {
+                    "name": "md-16px-按钮",
+
+                    "class": "padding-right-16"
+                },
+                {
+                    "name": "lg-24px-容器",
+                    "class": "padding-right-24"
+                }
+            ]
+        },
+        {
+            "name": "内边距-下",
+
+            "type": "Dropdown",
+            "description": "",
+            "options": [
+                {
+                    "name": "0",
+
+                    "class": "padding-bottom-0"
+                },
+                {
+                    "name": "xxs-4px-微小部件",
+
+                    "class": "padding-bottom-4"
+                },
+                {
+                    "name": "xs-8px-小部件",
+
+                    "class": "padding-bottom-8"
+                },
+                {
+                    "name": "sm-12px-表单",
+                    "class": "padding-bottom-12"
+                },
+                {
+                    "name": "md-16px-按钮",
+
+                    "class": "padding-bottom-16"
+                },
+                {
+                    "name": "lg-24px-容器",
+                    "class": "padding-bottom-24"
+                }
+            ]
+        },
+        {
+            "name": "边框样式",
+
+            "type": "Dropdown",
+            "description": "",
+            "options": [
+                {
+                    "name": "solid",
+                    "class": "border-style-solid"
+                }
+            ]
+        },
+        {
+            "name": "边框粗细",
+
+            "type": "Dropdown",
+            "description": "",
+            "options": [
+                {
+                    "name": "1",
+                    "class": "border-width-1"
+                },
+                {
+                    "name": "2",
+                    "class": "border-width-2"
+                },
+                {
+                    "name": "3",
+                    "class": "border-width-3"
+                },
+                {
+                    "name": "4",
+                    "class": "border-width-4"
+                },
+                {
+                    "name": "5",
+                    "class": "border-width-5"
+                },
+                {
+                    "name": "6",
+                    "class": "border-width-6"
+                },
+                {
+                    "name": "7",
+                    "class": "border-width-7"
+                },
+                {
+                    "name": "8",
+                    "class": "border-width-8"
+                },
+                {
+                    "name": "9",
+                    "class": "border-width-9"
+                },
+                {
+                    "name": "10",
+                    "class": "border-width-10"
+                }
+            ]
+        },
+        {
+            "name": "边框颜色",
+
+            "type": "Dropdown",
+            "description": "",
+            "options": [
+                {
+                    "name": "#000000 15%",
+                    "class": "border-color"
+                }
+            ]
+        },
+        {
+            "name": "Border Top Width",
+            "type": "Dropdown",
+            "description": "只显示上边框",
+            "options": [
+                {
+                    "name": "1",
+                    "class": "border-top-width-1"
+                },
+                {
+                    "name": "2",
+                    "class": "border-top-width-2"
+                }
+            ]
+        },
+
+        {
+            "name": "Border Bottom Width",
+            "type": "Dropdown",
+            "description": "只显示下边框",
+            "options": [
+                {
+                    "name": "1",
+                    "class": "border-bottom-width-1"
+                },
+                {
+                    "name": "2",
+                    "class": "border-bottom-width-2"
+                }
+            ]
+        },
+
+        {
+            "name": "边框圆角值",
+
+            "type": "Dropdown",
+            "description": "",
+            "options": [
+                {
+                    "name": "50%",
+                    "class": "border-radius-percentage-50"
+                },
+                {
+                    "name": "0",
+                    "class": "border-radius-0"
+                },
+                {
+                    "name": "2",
+                    "class": "border-radius-2"
+                },
+                {
+                    "name": "4",
+                    "class": "border-radius-4"
+                },
+                {
+                    "name": "6",
+                    "class": "border-radius-6"
+                },
+                {
+                    "name": "8",
+                    "class": "border-radius-8"
+                },
+                {
+                    "name": "10",
+                    "class": "border-radius-10"
+                },
+                {
+                    "name": "12",
+                    "class": "border-radius-12"
+                },
+                {
+                    "name": "14",
+                    "class": "border-radius-14"
+                },
+                {
+                    "name": "20",
+                    "class": "border-radius-20"
+                },
+                {
+                    "name": "30",
+                    "class": "border-radius-30"
+                },
+                {
+                    "name": "36",
+                    "class": "border-radius-36"
+                }
+            ]
+        },
+        {
+            "name": "Align self",
+
+            "type": "Dropdown",
+            "description": "Float the element to the left or to the right.",
+            "options": [
+                {
+                    "name": "Left",
+                    "class": "pull-left"
+                },
+                {
+                    "name": "Right",
+                    "class": "pull-right"
+                }
+            ]
+        },
+        {
+            "name": "Hide on phone",
+
+            "type": "Toggle",
+            "description": "Hide element on phone.",
+            "class": "hide-phone"
+        },
+        {
+            "name": "Hide on tablet",
+
+            "type": "Toggle",
+            "description": "Hide element on tablet.",
+            "class": "hide-tablet"
+        },
+        {
+            "name": "Hide on desktop",
+
+            "type": "Toggle",
+            "description": "Hide element on desktop.",
+            "class": "hide-desktop"
+        },
+        {
+            "name": "红点",
+            "type": "Toggle",
+            "description": "标题显示红点",
+            "class": "require-red"
+        }
+    ],
+    "DivContainer": [
+        {
+            "name": "Align content",
+            "type": "Dropdown",
+            "description": "Align content of this element left, right or center it. Align elements inside the container as a row or as a column.",
+            "options": [
+                {
+                    "name": "Left align as a row",
+
+                    "class": "row-left"
+                },
+                {
+                    "name": "Center align as a row",
+
+                    "class": "row-center"
+                },
+                {
+                    "name": "Right align as a row",
+
+                    "class": "row-right"
+                },
+                {
+                    "name": "Left align as a column",
+
+                    "class": "col-left"
+                },
+                {
+                    "name": "Center align as a column",
+
+                    "class": "col-center"
+                },
+                {
+                    "name": "Right align as a column",
+
+                    "class": "col-right"
+                }
+            ]
+        },
+        {
+            "name": "背景颜色",
+
+            "type": "Dropdown",
+            "description": "",
+            "options": [
+                {
+                    "name": "透明",
+                    "class": "background-transparent"
+                },
+                {
+                    "name": "浅灰",
+
+                    "class": "background-main"
+                },
+                {
+                    "name": "白色",
+
+                    "class": "background-secondary"
+                },
+                {
+                    "name": "品牌色",
+
+                    "class": "background-primary"
+                },
+                {
+                    "name": "成功",
+
+                    "class": "background-success"
+                },
+                {
+                    "name": "警告",
+
+                    "class": "background-warning"
+                },
+                {
+                    "name": "错误",
+
+                    "class": "background-danger"
+                },
+                {
+                    "name": "渐变",
+
+                    "class": "background-brand-gradient"
+                }
+            ]
+        },
+        {
+            "name": "阴影",
+            "type": "Dropdown",
+            "description": "",
+            "options": [
+                {
+                    "name": "1级-下阴影",
+                    "class": "shadow-1-down"
+                },
+                {
+                    "name": "2级-下阴影",
+                    "class": "shadow-2-down"
+                },
+                {
+                    "name": "3级-下阴影",
+                    "class": "shadow-3-down"
+                },
+                {
+                    "name": "1级-上阴影",
+                    "class": "shadow-1-up"
+                },
+                {
+                    "name": "2级-上阴影",
+                    "class": "shadow-2-up"
+                },
+                {
+                    "name": "3级-上阴影",
+                    "class": "shadow-3-up"
+                },
+                {
+                    "name": "1级-左阴影",
+                    "class": "shadow-1-left"
+                },
+                {
+                    "name": "2级-左阴影",
+                    "class": "shadow-2-left"
+                },
+                {
+                    "name": "3级-左阴影",
+                    "class": "shadow-3-left"
+                },
+                {
+                    "name": "1级-右阴影",
+                    "class": "shadow-1-right"
+                },
+                {
+                    "name": "2级-右阴影",
+                    "class": "shadow-2-right"
+                },
+                {
+                    "name": "3级-右阴影",
+                    "class": "shadow-3-right"
+                }
+            ]
+        },
+        
+        {
+            "name": "Shade",
+            "type": "Dropdown",
+            "description": "Apply a shade to your background color",
+            "options": [
+                {
+                    "name": "Light",
+                    "class": "background-light"
+                },
+                {
+                    "name": "Dark",
+                    "class": "background-dark"
+                }
+            ]
+        }
+    ],
+    "Button": [
+        {
+            "name": "Size",
+            "type": "Dropdown",
+            "description": "Size of the buttons",
+            "options": [
+                {
+                    "name": "12",
+                    "class": "btn-12"
+                },
+                {
+                    "name": "14",
+                    "class": "btn-14"
+                },
+                {
+                    "name": "16",
+                    "class": "btn-16"
+                },
+                {
+                    "name": "20",
+                    "class": "btn-20"
+                },
+                {
+                    "name": "24",
+                    "class": "btn-24"
+                },
+                {
+                    "name": "30",
+                    "class": "btn-30"
+                },
+                {
+                    "name": "38",
+                    "class": "btn-38"
+                },
+                {
+                    "name": "46",
+                    "class": "btn-46"
+                },
+                {
+                    "name": "56",
+                    "class": "btn-56"
+                },
+                {
+                    "name": "68",
+                    "class": "btn-68"
+                },
+                {
+                    "name": "Small",
+                    "class": "btn-sm"
+                },
+                {
+                    "name": "Large",
+                    "class": "btn-lg"
+                }
+            ]
+        },
+        {
+            "name": "Full width",
+            "type": "Toggle",
+            "description": "Extend the button to the full width of the container it is placed in.",
+            "class": "btn-block"
+        },
+        {
+            "name": "Border",
+
+            "type": "Toggle",
+            "description": "Style the button with a transparent background, a colored border, and colored text.",
+            "class": "btn-bordered"
+        },
+        {
+            "name": "Align icon",
+            "type": "Dropdown",
+            "description": "Place the icon to the right or on top of the button.",
+            "options": [
+                {
+                    "name": "Right",
+                    "class": "btn-icon-right"
+                },
+                {
+                    "name": "Top",
+                    "class": "btn-icon-top"
+                }
+            ]
+        }
+    ],
+    "ListView": [
+        {
+            "name": "Style",
+            "type": "Dropdown",
+            "description": "Change the appearance of rows in the list view.",
+            "options": [
+                {
+                    "name": "Lined",
+                    "class": "listview-lined"
+                },
+                {
+                    "name": "Striped",
+                    "class": "listview-striped"
+                },
+                {
+                    "name": "Bordered",
+                    "class": "listview-bordered"
+                },
+                {
+                    "name": "No Styling",
+                    "class": "listview-stylingless"
+                }
+            ]
+        },
+        {
+            "name": "Hover style",
+            "type": "Toggle",
+            "description": "Highlight a row when hovering over it. Only useful when the row is clickable.",
+            "class": "listview-hover"
+        },
+        {
+            "name": "Row Size",
+            "type": "Dropdown",
+            "description": "Change the row spacing of the list view.",
+            "options": [
+                {
+                    "name": "Small",
+                    "class": "listview-sm"
+                },
+                {
+                    "name": "Large",
+                    "class": "listview-lg"
+                }
+            ]
+        }
+    ],
+    "DataGrid": [
+        {
+            "name": "Style",
+            "type": "Dropdown",
+            "description": "Choose one of the following styles to change the appearance of the data grid.",
+            "options": [
+                {
+                    "name": "Striped",
+                    "class": "datagrid-striped"
+                },
+                {
+                    "name": "Bordered",
+                    "class": "datagrid-bordered"
+                },
+                {
+                    "name": "Lined",
+                    "class": "datagrid-lined"
+                }
+            ]
+        },
+        {
+            "name": "Hover style",
+            "type": "Toggle",
+            "description": "Enable data grid hover to make the rows hoverable.",
+            "class": "datagrid-hover"
+        },
+        {
+            "name": "Row size",
+            "type": "Dropdown",
+            "description": "Increase or decrease the row spacing of the data grid row.",
+            "options": [
+                {
+                    "name": "Small",
+                    "class": "datagrid-sm"
+                },
+                {
+                    "name": "Large",
+                    "class": "datagrid-lg"
+                }
+            ]
+        }
+    ],
+    "TemplateGrid": [
+        {
+            "name": "Style",
+            "type": "Dropdown",
+            "description": "Choose one of the following styles to change the appearance of the template grid.",
+            "options": [
+                {
+                    "name": "Striped",
+                    "class": "templategrid-striped"
+                },
+                {
+                    "name": "Bordered",
+                    "class": "templategrid-bordered"
+                },
+                {
+                    "name": "Lined",
+                    "class": "templategrid-lined"
+                },
+                {
+                    "name": "No styling",
+                    "class": "templategrid-stylingless"
+                }
+            ]
+        },
+        {
+            "name": "Hover style",
+            "type": "Toggle",
+            "description": "Enable template grid hover to make the rows hoverable.",
+            "class": "templategrid-hover"
+        }
+    ],
+    "GroupBox": [
+        {
+            "name": "Style",
+            "type": "Dropdown",
+            "description": "Choose one of the following styles to change the appearance of the groupbox.",
+            "options": [
+                {
+                    "name": "Brand Primary",
+
+                    "class": "groupbox-primary"
+                },
+                {
+                    "name": "Brand Secondary",
+
+                    "class": "groupbox-secondary"
+                },
+                {
+                    "name": "Brand Success",
+
+                    "class": "groupbox-success"
+                },
+                {
+                    "name": "Brand Warning",
+
+                    "class": "groupbox-warning"
+                },
+                {
+                    "name": "Brand Danger",
+
+                    "class": "groupbox-danger"
+                },
+                {
+                    "name": "Transparent",
+                    "class": "groupbox-transparent"
+                }
+            ]
+        },
+        {
+            "name": "Callout style",
+            "type": "Toggle",
+            "description": "Enable the groupbox callout functionality to highlight the importance of the groupbox.",
+            "class": "groupbox-callout"
+        }
+    ],
+    "StaticImageViewer": [
+        {
+            "name": "Style",
+            "type": "Dropdown",
+            "description": "Choose the style of your image.",
+            "options": [
+                {
+                    "name": "Rounded",
+                    "class": "img-rounded"
+                },
+                {
+                    "name": "Thumbnail",
+                    "class": "img-thumbnail"
+                },
+                {
+                    "name": "Circle",
+                    "class": "img-circle"
+                }
+            ]
+        },
+        {
+            "name": "Center",
+            "type": "Toggle",
+            "description": "Align the image in the center of an element.",
+            "class": "img-center"
+        },
+        {
+            "name": "Fit",
+            "type": "Dropdown",
+            "description": "Choose the image fit.",
+            "options": [
+                {
+                    "name": "Fill",
+                    "class": "img-fill"
+                },
+                {
+                    "name": "Contain",
+                    "class": "img-contain"
+                },
+                {
+                    "name": "Cover",
+                    "class": "img-cover"
+                },
+                {
+                    "name": "Scale-down",
+                    "class": "img-scale-down"
+                }
+            ]
+        }
+    ],
+    "DynamicImageViewer": [
+        {
+            "name": "Style",
+            "type": "Dropdown",
+            "description": "Choose the style of your image.",
+            "options": [
+                {
+                    "name": "Rounded",
+                    "class": "img-rounded"
+                },
+                {
+                    "name": "Thumbnail",
+                    "class": "img-thumbnail"
+                },
+                {
+                    "name": "Circle",
+                    "class": "img-circle"
+                }
+            ]
+        },
+        {
+            "name": "Center",
+            "type": "Toggle",
+            "description": "Align the image in the center of an element.",
+            "class": "img-center"
+        },
+        {
+            "name": "Fit",
+            "type": "Dropdown",
+            "description": "Choose the image fit.",
+            "options": [
+                {
+                    "name": "Fill",
+                    "class": "img-fill"
+                },
+                {
+                    "name": "Contain",
+                    "class": "img-contain"
+                },
+                {
+                    "name": "Cover",
+                    "class": "img-cover"
+                },
+                {
+                    "name": "Scale-down",
+                    "class": "img-scale-down"
+                }
+            ]
+        }
+    ],
+    "Label": [
+        {
+            "name": "Style",
+            "type": "Dropdown",
+            "description": "Change the appearance of a label.",
+            "options": [
+                {
+                    "name": "Brand Primary",
+
+                    "class": "label-primary"
+                },
+                {
+                    "name": "Brand Secondary",
+
+                    "class": "label-secondary"
+                },
+                {
+                    "name": "Brand Success",
+
+                    "class": "label-success"
+                },
+                {
+                    "name": "Brand Warning",
+
+                    "class": "label-warning"
+                },
+                {
+                    "name": "Brand Danger",
+
+                    "class": "label-danger"
+                }
+            ]
+        }
+    ],
+    "TabContainer": [
+        {
+            "name": "Style",
+            "type": "Dropdown",
+            "description": "Change the appearance of the tab container",
+            "options": [
+                {
+                    "name": "Pills",
+                    "class": "tab-pills"
+                },
+                {
+                    "name": "Lined",
+                    "class": "tab-lined"
+                },
+                {
+                    "name": "Bordered",
+                    "class": "tab-bordered"
+                },
+                {
+                    "name": "Wizard",
+                    "class": "tab-wizard"
+                }
+            ]
+        },
+        {
+            "name": "Tab Position",
+            "type": "Dropdown",
+            "description": "Change the position of the tabs",
+            "options": [
+                {
+                    "name": "Left",
+                    "class": "tab-left"
+                },
+                {
+                    "name": "Center",
+                    "class": "tab-center"
+                },
+                {
+                    "name": "Right",
+                    "class": "tab-right"
+                }
+            ]
+        },
+        {
+            "name": "Justify",
+            "type": "Toggle",
+            "description": "Justify the tabs to 100%",
+            "class": "tab-justified"
+        }
+    ],
+    "DynamicText": [
+        {
+            "name": "字体大小",
+
+            "type": "Dropdown",
+            "description": "",
+            "options": [
+                {
+                    "name": "提示信息-12",
+                    "class": "text-12"
+                },
+                {
+                    "name": "正文内容-14",
+
+                    "class": "text-14"
+                },
+                {
+                    "name": "标题-16",
+                    "class": "text-16"
+                },
+                {
+                    "name": "一级标题-20",
+                    "class": "text-20"
+                },
+                {
+                    "name": "列表区标题-24",
+                    "class": "text-24"
+                },
+                {
+                    "name": "模块标题-30",
+
+                    "class": "text-30"
+                },
+                {
+                    "name": "导航栏文字-38",
+                    "class": "text-38"
+                }
+            ]
+        },
+        {
+            "name": "字粗",
+
+            "type": "Dropdown",
+            "description": "",
+            "options": [
+                {
+                    "name": "正常-400",
+
+                    "class": "text-normal"
+                },
+                {
+                    "name": "中等-500",
+
+                    "class": "text-semibold"
+                },
+                {
+                    "name": "加粗-600",
+
+                    "class": "text-bold"
+                }
+            ]
+        },
+        {
+            "name": "字体颜色",
+
+            "type": "Dropdown",
+            "description": "",
+            "options": [
+                {
+                    "name": "标题-#000000 85%",
+
+                    "class": "text-header"
+                },
+                {
+                    "name": "正文-#000000 65%",
+
+                    "class": "text-detail"
+                },
+                {
+                    "name": "描述-#000000 45%",
+                    "class": "text-describe"
+                },
+                {
+                    "name": "主题-#1890FF",
+
+                    "class": "text-primary"
+                },
+                {
+                    "name": "成功-#52C41A",
+
+                    "class": "text-success"
+                },
+                {
+                    "name": "警告-#FAAD14",
+
+                    "class": "text-warning"
+                },
+                {
+                    "name": "错误-#FF4D4F",
+
+                    "class": "text-danger"
+                },
+                {
+                    "name": "白色-#ffffff",
+
+                    "class": "text-white"
+                }
+            ]
+        },
+        {
+            "name": "Alignment",
+            "type": "Dropdown",
+            "description": "Align the text.",
+            "options": [
+                {
+                    "name": "Left",
+                    "class": "text-left d-block"
+                },
+                {
+                    "name": "Center",
+                    "class": "text-center d-block"
+                },
+                {
+                    "name": "Right",
+                    "class": "text-right d-block"
+                }
+            ]
+        },
+        {
+            "name": "Transform",
+            "type": "Dropdown",
+            "description": "Change the letter case of the text.",
+            "options": [
+                {
+                    "name": "Lowercase",
+                    "class": "text-lowercase"
+                },
+                {
+                    "name": "Uppercase",
+                    "class": "text-uppercase"
+                },
+                {
+                    "name": "Capitalize",
+                    "class": "text-capitalize"
+                }
+            ]
+        },
+        {
+            "name": "Wrap options",
+            "type": "Dropdown",
+            "description": "Break long words and sentences into multiple lines.",
+            "options": [
+                {
+                    "name": "Wrap",
+                    "class": "text-break"
+                },
+                {
+                    "name": "No Wrap",
+                    "class": "text-nowrap"
+                }
+            ]
+        }
+    ],
+    "Table": [
+        {
+            "name": "Style",
+            "type": "Dropdown",
+            "description": "Change the appearance of cells in the table.",
+            "options": [
+                {
+                    "name": "Bordered",
+                    "class": "table-bordered"
+                },
+                {
+                    "name": "Lined",
+                    "class": "table-lined"
+                }
+            ]
+        },
+        {
+            "name": "Compact",
+            "type": "Toggle",
+            "description": "Change the spacing between cells to be compact.",
+            "class": "table-compact"
+        }
+    ],
+    "com.mendix.widget.custom.badge.Badge": [
+        {
+            "name": "Style",
+            "type": "Dropdown",
+            "description": "The brand style affecting this element's appearance.",
+            "options": [
+                {
+                    "name": "Brand Primary",
+                    "class": "label-primary"
+                },
+                {
+                    "name": "Brand Secondary",
+                    "class": "label-secondary"
+                },
+                {
+                    "name": "Brand Success",
+                    "class": "label-success"
+                },
+                {
+                    "name": "Brand Warning",
+                    "class": "label-warning"
+                },
+                {
+                    "name": "Brand Danger",
+                    "class": "label-danger"
+                }
+            ]
+        }
+    ],
+    "com.mendix.widget.custom.progressbar.ProgressBar": [
+        {
+            "name": "Striped bar",
+            "type": "Toggle",
+            "description": "Striped progress bar",
+            "class": "progress-striped"
+        },
+        {
+            "name": "Bar color",
+            "type": "Dropdown",
+            "description": "Color of the progress bar",
+            "options": [
+                {
+                    "name": "Primary",
+                    "class": "progress-bar-primary"
+                },
+                {
+                    "name": "Success",
+                    "class": "progress-bar-success"
+                },
+                {
+                    "name": "Warning",
+                    "class": "progress-bar-warning"
+                },
+                {
+                    "name": "Danger",
+                    "class": "progress-bar-danger"
+                }
+            ]
+        },
+        {
+            "name": "Size",
+            "type": "Dropdown",
+            "description": "Size of the progress bar",
+            "options": [
+                {
+                    "name": "Small",
+                    "class": "progress-bar-small"
+                },
+                {
+                    "name": "Medium",
+                    "class": "progress-bar-medium"
+                },
+                {
+                    "name": "Large",
+                    "class": "progress-bar-large"
+                }
+            ]
+        }
+    ],
+    "com.mendix.widget.custom.badgebutton.BadgeButton": [
+        {
+            "name": "Style",
+            "type": "Dropdown",
+            "description": "The brand style affecting this element's appearance.",
+            "options": [
+                {
+                    "name": "Brand Primary",
+                    "class": "btn-primary"
+                },
+                {
+                    "name": "Brand Secondary",
+                    "class": "btn-secondary"
+                },
+                {
+                    "name": "Brand Success",
+                    "class": "btn-success"
+                },
+                {
+                    "name": "Brand Warning",
+                    "class": "btn-warning"
+                },
+                {
+                    "name": "Brand Danger",
+                    "class": "btn-danger"
+                }
+            ]
+        },
+        {
+            "name": "大小",
+            "type": "Dropdown",
+            "description": "Size of the buttons",
+            "options": [
+                {
+                    "name": "提示信息-12",
+                    "class": "text-12"
+                },
+                {
+                    "name": "正文内容-14",
+
+                    "class": "text-14"
+                },
+                {
+                    "name": "标题-16",
+                    "class": "text-16"
+                },
+                {
+                    "name": "一级标题-20",
+                    "class": "text-20"
+                },
+                {
+                    "name": "列表区标题-24",
+                    "class": "text-24"
+                },
+                {
+                    "name": "模块标题-30",
+
+                    "class": "text-30"
+                },
+                {
+                    "name": "导航栏文字-38",
+                    "class": "text-38"
+                }
+            ]
+        },
+        {
+            "name": "Full width",
+            "type": "Toggle",
+            "description": "Extend the button to the full width of the container it is placed in.",
+            "class": "btn-block"
+        },
+        {
+            "name": "Border",
+
+            "type": "Toggle",
+            "description": "Style the button with a transparent background, a colored border, and colored text.",
+            "class": "btn-bordered"
+        }
+    ],
+    "com.mendix.widget.custom.progresscircle.ProgressCircle": [
+        {
+            "name": "Bar color",
+            "type": "Dropdown",
+            "description": "Color of the progress bar",
+            "options": [
+                {
+                    "name": "Primary",
+                    "class": "widget-progress-circle-primary"
+                },
+                {
+                    "name": "Success",
+                    "class": "widget-progress-circle-success"
+                },
+                {
+                    "name": "Warning",
+                    "class": "widget-progress-circle-warning"
+                },
+                {
+                    "name": "Danger",
+                    "class": "widget-progress-circle-danger"
+                }
+            ]
+        },
+        {
+            "name": "Size",
+            "type": "Dropdown",
+            "description": "Thickness of the progress circle",
+            "options": [
+                {
+                    "name": "Small",
+                    "class": "widget-progress-circle-thickness-small"
+                },
+                {
+                    "name": "Medium",
+                    "class": "widget-progress-circle-thickness-medium"
+                },
+                {
+                    "name": "Large",
+                    "class": "widget-progress-circle-thickness-large"
+                }
+            ]
+        }
+    ],
+    "com.mendix.widget.custom.switch.Switch": [
+        {
+            "name": "Style",
+            "type": "Dropdown",
+            "description": "The brand style affecting this element's appearance.",
+            "options": [
+                {
+                    "name": "Brand Primary",
+                    "class": "widget-switch-brand-primary"
+                },
+                {
+                    "name": "Brand Secondary",
+                    "class": "widget-switch-brand-secondary"
+                },
+                {
+                    "name": "Brand Success",
+                    "class": "widget-switch-brand-success"
+                },
+                {
+                    "name": "Brand Warning",
+                    "class": "widget-switch-brand-warning"
+                },
+                {
+                    "name": "Brand Danger",
+                    "class": "widget-switch-brand-danger"
+                }
+            ]
+        },
+        {
+            "name": "Device style",
+            "type": "Dropdown",
+            "description": "The general appearance of the switch. When no option selected iOS styles are applied",
+            "options": [
+                {
+                    "name": "iOS",
+                    "class": "iOS"
+                },
+                {
+                    "name": "Android",
+                    "class": "android"
+                }
+            ]
+        }
+    ],
+    "MenuBar": [
+        {
+            "name": "Hide icons",
+            "type": "Toggle",
+            "description": "Hide the navigation items icon",
+            "class": "hide-icons"
+        }
+    ],
+    "NavigationTree": [
+        {
+            "name": "Hide icons",
+            "type": "Toggle",
+            "description": "Hide the navigation items icon",
+            "class": "hide-icons"
+        }
+    ],
+    "SimpleMenuBar": [
+        {
+            "name": "Hide icons",
+            "type": "Toggle",
+            "description": "Hide the navigation items icon",
+            "class": "hide-icons"
+        }
+    ],
+    "runjian.iconweb.IconWeb": [
+        {
+            "name": "图标大小",
+            "type": "Dropdown",
+            "description": "",
+            "options": [
+                {
+                    "name": "提示信息-12",
+                    "class": "text-12"
+                },
+                {
+                    "name": "正文内容-14",
+
+                    "class": "text-14"
+                },
+                {
+                    "name": "标题-16",
+                    "class": "text-16"
+                },
+                {
+                    "name": "一级标题-20",
+                    "class": "text-20"
+                },
+                {
+                    "name": "列表区标题-24",
+                    "class": "text-24"
+                },
+                {
+                    "name": "模块标题-30",
+
+                    "class": "text-30"
+                },
+                {
+                    "name": "导航栏文字-38",
+                    "class": "text-38"
+                }
+            ]
+        },
+        {
+            "name": "图标颜色",
+            "type": "Dropdown",
+            "description": "",
+            "options": [
+                {
+                    "name": "标题-#000000 85%",
+
+                    "class": "text-header"
+                },
+                {
+                    "name": "正文-#000000 65%",
+
+                    "class": "text-detail"
+                },
+                {
+                    "name": "主题-#1890FF",
+
+                    "class": "text-primary"
+                },
+                {
+                    "name": "成功-#52C41A",
+
+                    "class": "text-success"
+                },
+                {
+                    "name": "警告-#FAAD14",
+
+                    "class": "text-warning"
+                },
+                {
+                    "name": "错误-#FF4D4F",
+
+                    "class": "text-danger"
+                },
+                {
+                    "name": "白色-#ffffff",
+
+                    "class": "text-white"
+                }
+            ]
+        }
+    ],
+    "InputWidget": [
+        {
+            "name": "红点",
+            "type": "Toggle",
+            "description": "标题左侧显示红点",
+            "class": "require-red"
+        }
+    ],
+    "runjian.inputpassword.InputPassword": [
+        {
+            "name": "红点",
+            "type": "Toggle",
+            "description": "标题左侧显示红点",
+            "class": "require-red"
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+// 重置table
+.reset-table .my-card{
+    /* 在内部表格中不需要下边距 */
+    padding: unset;
+}
+.reset-table .m-span{
+    display:none
+}
+.reset-table .table-action{
+    margin-bottom: 25px;
+}
+
+.reset-upload-margin {
+    .ant-form-item{
+        margin-bottom: 0;
+    }
+}
+
+
